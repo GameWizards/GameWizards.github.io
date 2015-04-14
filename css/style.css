@@ -1,0 +1,14 @@
+body {
+    background-color: #115;
+    background-image: url(../Team5.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 32px;
+}
+
+div#content {
+    margin: 10px auto;
+    margin-top: 210px;
+    padding: 20px;
+    background: white;
+}
