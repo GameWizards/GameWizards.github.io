@@ -1,6 +1,5 @@
 body {
     background-color: #115;
-    background-image: url(../Team5.png);
     background-repeat: no-repeat;
     background-position: top center;
     padding: 32px;
@@ -8,7 +7,33 @@ body {
 
 div#content {
     margin: 10px auto;
-    margin-top: 210px;
     padding: 20px;
     background: white;
+}
+
+div#top-menu {
+    height: 40px;
+    background-color: red;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+div#left-menu {
+    float: left;
+    width: 200px;
+    height: 400px;
+    background-color: #99F;   
+    margin-left: 0px;
+    padding-left: 10px;
+    border: 5px double black;
+}
+
+div#banner-top {
+    float: center;
+    width: 100%;
+}
+
+.selected {
+    color: black;
+    font-weight: bold;
 }
